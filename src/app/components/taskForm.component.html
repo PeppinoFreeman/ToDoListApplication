@@ -1,0 +1,138 @@
+<!-- Création/Modification tâche -->
+<div class="container">
+  <div class="row col-lg-6 bg-secondary text-white rounded mx-auto mt-2 hTitles">
+    <h2 class="text-center" [hidden]="toggleUpdateButton">
+      Créer une nouvelle tâche
+    </h2>
+    <h2 class="text-center" [hidden]="!toggleUpdateButton">
+      Mettre à jour une tâche
+    </h2>
+  </div>
+  <div class="row col-lg-6 bg-dark text-white rounded mx-auto pb-2 pt-2 tBody">
+    <form class="form-inline" #form="ngForm">
+      <div class="form-group">
+        <label for="taskTitle"> Tâche </label>
+        <input
+          class="form-control"
+          placeholder="Nouvelle tâche"
+          name="taskField"
+          type="text"
+          required
+          minlength="1"
+          maxlength="30"
+          [(ngModel)]="newTask.title"
+        />
+      </div>
+      <div class="form-group">
+        <label for="taskType"> Type </label>
+        <select
+          class="form-control"
+          name="type"
+          required
+          [(ngModel)]="newTask.type"
+        >
+          <option value="" selected disabled>
+            Choisir le type de tâche...
+          </option>
+          <option>Ponctuel</option>
+          <option>Long cours</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="taskCategory"> Catégorie</label
+        ><select
+          class="form-control"
+          name="category"
+          [(ngModel)]="newTask.category"
+        >
+          <option value="" selected disabled>
+            Choisir une catégorie... (optionnel)
+          </option>
+          <option></option>
+          <option *ngFor="let item of categories">{{ item }}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="taskStart" [hidden]="toggleUpdateButton">
+          Date de début<input
+            class="form-control"
+            name="startDate"
+            type="date"
+            required
+            [ngModel]="newTask.startDate | date: 'yyyy-MM-dd'"
+            (ngModelChange)="newTask.startDate = $event"
+            #startDate="ngModel"
+          /><span [hidden]="testStartDateError(newTask) || startDate.pristine">
+            La tâche doit commencer au moins aujourd'hui !
+          </span>
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label for="taskEnd"
+          >Date de fin<input
+            class="form-control"
+            name="finishDate"
+            type="date"
+            required
+            [ngModel]="newTask.finishDate | date: 'yyyy-MM-dd'"
+            (ngModelChange)="newTask.finishDate = $event"
+            #endDate="ngModel"
+          /><span [hidden]="testEndDateError(newTask) || endDate.pristine">
+            La date de fin doit être supérieure à celle du début !
+          </span>
+        </label>
+      </div>
+      <br />
+
+      <button
+        class="btn btn-outline-primary"
+        [hidden]="toggleUpdateButton"
+        [disabled]="
+          !form.form.valid ||
+          !testStartDateError(newTask) ||
+          !testEndDateError(newTask)
+        "
+        *ngIf="
+          !form.form.valid ||
+          !testStartDateError(newTask) ||
+          !testEndDateError(newTask)
+        "
+      >
+        Ajouter Tâche
+      </button>
+      <button
+        class="btn btn-primary"
+        [hidden]="toggleUpdateButton"
+        *ngIf="
+          !(
+            !form.form.valid ||
+            !testStartDateError(newTask) ||
+            !testEndDateError(newTask)
+          )
+        "
+        (click)="createTask()"
+      >
+        Ajouter Tâche
+      </button>
+
+      <button
+        class="btn btn-outline-primary"
+        [hidden]="!toggleUpdateButton"
+        [disabled]="!form.form.valid || !testEndDateError(newTask)"
+        *ngIf="!form.form.valid || !testEndDateError(newTask)"
+      >
+        Modifier Tâche
+      </button>
+      <button
+        class="btn btn-primary"
+        [hidden]="!toggleUpdateButton"
+        (click)="updateTask()"
+        *ngIf="!(!form.form.valid || !testEndDateError(newTask))"
+      >
+        Modifier Tâche
+      </button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,144 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 mx-auto bg-secondary text-white rounded hTitles">
+      <h2 class="text-center">Liste des tâches</h2>
+    </div>
+  </div>
+  <ul
+    class="list-group row rounded"
+    *ngFor="let item of taskList; let i = index"
+  >
+    <li
+      class="list-group-item mx-auto mb-2 col-lg-8 bg-dark text-light tBody"
+      *ngIf="!item.taskFinished"
+    >
+      <div class="row">
+        <div class="col-8">
+          <div><label>Tâche: </label>{{ item.title }}</div>
+
+          <div class="my-2">
+            <div class="late" [hidden]="!item.isLate">En retard !!</div>
+            <div class="notLate" [hidden]="item.isLate">Pas de retard</div>
+          </div>
+
+          <div
+            class="collapse"
+            id="collapseList"
+            [ngbCollapse]="isCollapsed[i]"
+          >
+            <div class="Category" *ngIf="item.category != ''">
+              <label>Categorie: </label> {{ item.category }}
+            </div>
+            <div class="Category" *ngIf="item.category == ''">
+              <label>Categorie: </label> Sans catégorie
+            </div>
+
+            <div class="taskStart">
+              <label for="taskStart">Date de Début: </label>
+              {{ item.startDate | date: "mediumDate" }}
+            </div>
+
+            <div class="taskEnd">
+              <label for="taskEnd">Date de Fin: </label>
+              {{ item.finishDate | date: "mediumDate" }}
+            </div>
+
+            <div class="Duration">
+              <label> Durée de la tâche: </label>
+              {{ item.duration }} jours.
+            </div>
+
+            <div class="RemainDuration" [hidden]="item.isLate">
+              <label>Durée restante: </label>
+              {{ getRemainingDuration(item) }} jours.
+            </div>
+            <div *ngIf="item.type == 'Ponctuel'">
+              <div class="Status" [hidden]="item.taskFinished">
+                <label> Statut: </label> en cours.
+              </div>
+              <div class="Status" [hidden]="!item.taskFinished">
+                <label> Statut: </label> terminée.
+              </div>
+              <div class="form-check">
+                <label for="taskCheck"> Cochez pour terminer </label>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="check"
+                  [(ngModel)]="item.taskFinished"
+                  (click)="toggleTaskState(item)"
+                />
+              </div>
+            </div>
+            <div *ngIf="item.type == 'Long cours'">
+              <div *ngIf="item.taskPercentage < 100">
+                <label> Statut: </label> {{ item.taskPercentage }}% réalisé
+              </div>
+              <div *ngIf="item.taskPercentage == 100">
+                <label for="status"> Statut: </label> Terminée
+              </div>
+
+              <div class="form-group col-lg-6">
+                <label for="taskPercentage">Modifier le pourcentage</label>
+                <input
+                  class="form-control"
+                  name="numberField"
+                  type="number"
+                  [min]="item.taskPercentage"
+                  [max]="100"
+                  step="5"
+                  value="0"
+                  [(ngModel)]="item.taskPercentage"
+                />
+              </div>
+              <button
+                class="btn btn-sm btn-outline-success mt-2"
+                name="button"
+                ngDefaultControl
+                (click)="updateTaskPercentage(item)"
+                [(ngModel)]="item.taskFinished"
+              >
+                Valider
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="d-flex align-items-end flex-column" style="height: 100%">
+            <div class="mb-2">
+              <div class="btn-group" *ngIf="isCollapsed[i]">
+                <button
+                  class="btn btn-sm btn-outline-info dropdown-toggle"
+                  data-toggle="collapse"
+                  data-target="#collapseList"
+                  (click)="isCollapsed[i] = !isCollapsed[i]"
+                >
+                  Détails
+                </button>
+              </div>
+
+              <div class="btn-group dropup" *ngIf="!isCollapsed[i]">
+                <button
+                  class="btn btn-sm btn-outline-info dropdown-toggle"
+                  data-toggle="collapse"
+                  data-target="#collapseList"
+                  (click)="isCollapsed[i] = !isCollapsed[i]"
+                >
+                  Moins
+                </button>
+              </div>
+            </div>
+            <div class="mt-auto">
+              <button
+                class="btn btn-sm btn-outline-primary"
+                (click)="toggleUpdateTask(item, i)"
+              >
+                Modifier
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
