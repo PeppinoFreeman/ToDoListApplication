@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-image: url("../background.jpg");
+}
+.navbar {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #1c1b1b,
+    #302f31,
+    #454547,
+    #5a5d5f
+  );
+}
+.hTitles {
+  background-image: linear-gradient(
+    to left bottom,
+    #0400ff,
+    #004df6,
+    #0061d6,
+    #006bab,
+    #4e6f81
+  );
+}
+.tBody {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #1c1c1c,
+    #323232,
+    #494949,
+    #626262,
+    #676769,
+    #6d6c70,
+    #727177,
+    #64636e,
+    #575665,
+    #49495c,
+    #3b3c53
+  );
+}
+
+/*
+button {
+  background-image: linear-gradient(to right bottom, #053037, #044341, #1d5644, #3e6742, #65773e);
+}
+*/
