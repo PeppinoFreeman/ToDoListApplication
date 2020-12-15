@@ -1,10 +1,10 @@
-import { Task } from '../models/task.object';
-import { TaskService } from '../services/task.service';
-import { AppModule } from '../app.module';
+import { Task } from './../models/task.object';
+import { TaskService } from './../services/task.service';
+import { AppModule } from './../app.module';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { TaskBilanComponent } from '../components/taskBilan.component';
+import { TaskBilanComponent } from './taskBilan.component';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { DOMHelper } from './dom-helper';
+import { DOMHelper } from '../dom-helper';
 
 describe('TaskBilanComponent', () => {
   let fixture: ComponentFixture<TaskBilanComponent>;
@@ -29,8 +29,8 @@ describe('TaskBilanComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`A pour titre une balise h1 'Bilan'`, () => {
-    expect(dHelper.getText('h1')).toContain('Bilan');
+  it(`A pour titre une balise h2 'Bilan'`, () => {
+    expect(dHelper.getText('h2')).toContain('Bilan');
   });
 
   it('Appel du service', () => {

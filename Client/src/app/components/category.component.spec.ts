@@ -1,11 +1,11 @@
-import { CategoryService } from '../services/category.service';
-import { AppModule } from '../app.module';
+import { CategoryService } from './../services/category.service';
+import { AppModule } from './../app.module';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { CategoryComponent } from '../components/category.component';
+import { CategoryComponent } from './category.component';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { routes } from '../app-routing.module';
-import { DOMHelper } from './dom-helper';
+import { routes } from './../app-routing.module';
+import { DOMHelper } from '../dom-helper';
 import { By } from '@angular/platform-browser';
 
 describe('CategoryComponent', () => {
@@ -47,27 +47,21 @@ describe('CategoryComponent', () => {
     const button = fixture.debugElement.query(By.css('#createButton'));
     fixture.detectChanges();
     const spy = spyOn(categoryServiceMock, 'add');
-    if (button.triggerEventHandler('click', {}) === undefined) {
-      app.createCategory();
-    }
-    expect(spy).toHaveBeenCalled();
+    button.triggerEventHandler('click', {});
+    expect(spy).toHaveBeenCalledTimes(1);
   });
-  it('Appel du service de modification au clic', () => {
+  it('Appel du service de suppression au clic', () => {
     const button = fixture.debugElement.query(By.css('#renameButton'));
     fixture.detectChanges();
     const spy = spyOn(categoryServiceMock, 'rename');
-    if (button.triggerEventHandler('click', {}) === undefined) {
-      app.renameCategory();
-    }
-    expect(spy).toHaveBeenCalled();
+    button.triggerEventHandler('click', {});
+    expect(spy).toHaveBeenCalledTimes(1);
   });
-  it('Appel du service de suppression au clic', () => {
+  it('Appel du service de modification au clic', () => {
     const button = fixture.debugElement.query(By.css('#deleteButton'));
     fixture.detectChanges();
     const spy = spyOn(categoryServiceMock, 'delete');
-    if (button.triggerEventHandler('click', {}) === undefined) {
-      app.deleteCategory();
-    }
-    expect(spy).toHaveBeenCalled();
+    button.triggerEventHandler('click', {});
+    expect(spy).toHaveBeenCalledTimes(1);
   });
 });

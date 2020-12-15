@@ -1,5 +1,5 @@
-import { Config } from '../models/config';
-import { CategoryHttpService } from '../services/categoryHttp.service';
+import { Config } from './../models/config';
+import { CategoryHttpService } from './categoryHttp.service';
 import {
   HttpClientTestingModule,
   HttpTestingController,

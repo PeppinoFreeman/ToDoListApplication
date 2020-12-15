@@ -1,13 +1,13 @@
-import { CategoryService } from '../services/category.service';
-import { TaskEditService } from '../services/taskEdit.service';
-import { AppModule } from '../app.module';
-import { Config } from '../models/config';
+import { CategoryService } from './category.service';
+import { TaskEditService } from './taskEdit.service';
+import { AppModule } from './../app.module';
+import { Config } from './../models/config';
 import {
   HttpClientTestingModule,
   HttpTestingController,
 } from '@angular/common/http/testing';
 import { TestBed, tick, fakeAsync, inject } from '@angular/core/testing';
-import { TaskService } from '../services/task.service';
+import { TaskService } from './task.service';
 import { Task } from '../models/task.object';
 
 describe('TaskService', () => {

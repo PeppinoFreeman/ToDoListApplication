@@ -1,7 +1,7 @@
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { Task } from '../models/task.object';
+import { Task } from './../models/task.object';
 import { TestBed } from '@angular/core/testing';
-import { TaskFormService } from '../services/taskForm.service';
+import { TaskFormService } from './taskForm.service';
 
 describe('TaskFormService', () => {
   let service: TaskFormService;

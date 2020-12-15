@@ -1,10 +1,10 @@
-import { Task } from '../models/task.object';
-import { TaskService } from '../services/task.service';
-import { AppModule } from '../app.module';
+import { Task } from './../models/task.object';
+import { TaskService } from './../services/task.service';
+import { AppModule } from './../app.module';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { TaskFormComponent } from '../components/taskForm.component';
+import { TaskFormComponent } from './taskForm.component';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { DOMHelper } from './dom-helper';
+import { DOMHelper } from '../dom-helper';
 import { By } from '@angular/platform-browser';
 
 describe('TaskFormComponent', () => {
@@ -42,9 +42,7 @@ describe('TaskFormComponent', () => {
     const button = fixture.debugElement.query(By.css('#createButton'));
     fixture.detectChanges();
     const spy = spyOn(taskServiceMock, 'create');
-    if (button.triggerEventHandler('click', {}) === undefined) {
-      app.createTask();
-    }
+    button.triggerEventHandler('click', {});
     expect(spy).toHaveBeenCalledTimes(1);
   });
 
@@ -52,9 +50,7 @@ describe('TaskFormComponent', () => {
     const button = fixture.debugElement.query(By.css('#updateButton'));
     fixture.detectChanges();
     const spy = spyOn(taskServiceMock, 'update');
-    if (button.triggerEventHandler('click', {}) === undefined) {
-      app.updateTask();
-    }
+    button.triggerEventHandler('click', {});
     expect(spy).toHaveBeenCalledTimes(1);
   });
 

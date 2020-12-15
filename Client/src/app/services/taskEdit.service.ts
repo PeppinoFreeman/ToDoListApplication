@@ -4,7 +4,7 @@ import { Task } from './../models/task.object';
 
 @Injectable()
 export class TaskEditService {
-  private router: Router;
+  public router: Router;
 
   constructor(router: Router) {
     this.router = router;

@@ -1,9 +1,9 @@
 import { Category } from '../models/category.object';
-import { Injectable, Output, EventEmitter } from '@angular/core';
+import { Injectable, Output, EventEmitter} from '@angular/core';
 import { CategoryHttpService } from './categoryHttp.service';
 
 @Injectable()
-export class CategoryService {
+export class CategoryService{
   private CategoryHttpService: CategoryHttpService;
   public Category: Category;
   @Output() updateCategories: EventEmitter<string[]> = new EventEmitter();
@@ -17,6 +17,7 @@ export class CategoryService {
       this.updateInTaskList(response[0], response[1]);
     });
   }
+
   // Récupère l'objet Category
   getCategories(): Category {
     return this.Category;

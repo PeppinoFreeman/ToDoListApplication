@@ -1,7 +1,7 @@
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { AppModule } from '../app.module';
-import { Task } from '../models/task.object';
-import { TaskEditService } from '../services/taskEdit.service';
+import { AppModule } from './../app.module';
+import { Task } from './../models/task.object';
+import { TaskEditService } from './taskEdit.service';
 import { TestBed } from '@angular/core/testing';
 import { EventEmitter } from '@angular/core';
 

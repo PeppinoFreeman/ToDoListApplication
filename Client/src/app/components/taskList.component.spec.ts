@@ -1,9 +1,9 @@
-import { TaskService } from '../services/task.service';
-import { AppModule } from '../app.module';
-import { TaskListComponent } from '../components/taskList.component';
+import { TaskService } from './../services/task.service';
+import { AppModule } from './../app.module';
+import { TaskListComponent } from './taskList.component';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { DOMHelper } from './dom-helper';
+import { DOMHelper } from '../dom-helper';
 import { Task } from '../models/task.object';
 
 describe('TaskListComponent', () => {

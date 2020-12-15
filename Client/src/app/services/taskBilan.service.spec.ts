@@ -1,6 +1,6 @@
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { Task } from '../models/task.object';
-import { TaskBilanService } from '../services/taskBilan.service';
+import { Task } from './../models/task.object';
+import { TaskBilanService } from './taskBilan.service';
 import { TestBed } from '@angular/core/testing';
 
 describe('TaskBilanService', () => {

@@ -1,7 +1,7 @@
-import { CategoryHttpService } from '../services/categoryHttp.service';
+import { CategoryHttpService } from './categoryHttp.service';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { AppModule } from '../app.module';
-import { CategoryService } from '../services/category.service';
+import { AppModule } from './../app.module';
+import { CategoryService } from './category.service';
 import { TestBed } from '@angular/core/testing';
 
 describe('CategoryService', () => {

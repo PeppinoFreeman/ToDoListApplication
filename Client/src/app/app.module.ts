@@ -2,7 +2,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 
 /// SERVICES
@@ -32,13 +31,7 @@ import { TaskBilanComponent } from './components/taskBilan.component';
     TaskListComponent,
     TaskBilanComponent,
   ],
-  imports: [
-    NgbModule,
-    BrowserModule,
-    HttpClientModule,
-    FormsModule,
-    AppRoutingModule,
-  ],
+  imports: [BrowserModule, HttpClientModule, FormsModule, AppRoutingModule],
   providers: [
     HttpClient,
     CategoryService,

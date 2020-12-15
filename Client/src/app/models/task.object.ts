@@ -24,4 +24,12 @@ export class Task {
     this.taskFinished = taskFinished;
     this.taskPercentage = taskPercentage;
   }
+  /*
+  convertToTask(response: any[]): Task[] {
+    for (let i = 0; i < response.length; i++) {
+      response[i] = new Task(response[i]);
+    }
+    return response;
+  }
+  */
 }

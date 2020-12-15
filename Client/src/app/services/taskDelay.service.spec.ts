@@ -1,6 +1,6 @@
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { Task } from '../models/task.object';
-import { TaskDelayService } from '../services/taskDelay.service';
+import { Task } from './../models/task.object';
+import { TaskDelayService } from './taskDelay.service';
 import { TestBed } from '@angular/core/testing';
 
 describe('TaskDelayService', () => {
