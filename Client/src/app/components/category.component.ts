@@ -1,18 +1,20 @@
 import { CategoryService } from '../services/category.service';
 import { Category } from '../models/category.object';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-category',
   templateUrl: './category.component.html',
 })
-export class CategoryComponent {
+export class CategoryComponent implements OnInit{
   public Category: Category;
   private CategoryService: CategoryService;
 
   constructor(categoryService: CategoryService) {
     this.CategoryService = categoryService;
-    this.Category = categoryService.getCategories();
+  }
+  ngOnInit(): void {
+    this.Category = this.CategoryService.getCategories();
   }
 
   // Pour supprimer une catégorie

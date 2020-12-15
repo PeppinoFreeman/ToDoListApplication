@@ -1,6 +1,8 @@
 <!-- Création/Modification tâche -->
 <div class="container">
-  <div class="row col-lg-6 bg-secondary text-white rounded mx-auto mt-2 hTitles">
+  <div
+    class="row col-lg-6 bg-secondary text-white rounded mx-auto mt-2 hTitles"
+  >
     <h2 class="text-center" [hidden]="toggleUpdateButton">
       Créer une nouvelle tâche
     </h2>
@@ -103,6 +105,7 @@
         Ajouter Tâche
       </button>
       <button
+        id="createButton"
         class="btn btn-primary"
         [hidden]="toggleUpdateButton"
         *ngIf="
@@ -126,6 +129,7 @@
         Modifier Tâche
       </button>
       <button
+        id="updateButton"
         class="btn btn-primary"
         [hidden]="!toggleUpdateButton"
         (click)="updateTask()"

@@ -1,12 +1,12 @@
 import { TaskService } from './../services/task.service';
 import { Task } from './../models/task.object';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-task',
   templateUrl: './task.component.html',
 })
-export class TaskComponent {
+export class TaskComponent implements OnInit {
   private TaskService: TaskService;
   public taskList: Task[];
 
@@ -15,8 +15,9 @@ export class TaskComponent {
   constructor(taskService: TaskService) {
     this.TaskService = taskService;
     this.actualDate = new Date();
-
-    taskService.updateList.subscribe((taskList: Task[]) => {
+  }
+  ngOnInit(): void {
+    this.TaskService.updateList.subscribe((taskList: Task[]) => {
       this.taskList = taskList;
     });
     this.TaskService.getServerTaskList();

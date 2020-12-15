@@ -1,7 +1,7 @@
 import { CategoryService } from './../services/category.service';
 import { TaskService } from './../services/task.service';
 import { Task } from './../models/task.object';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-task-form',
@@ -15,7 +15,7 @@ import { Component } from '@angular/core';
     `,
   ],
 })
-export class TaskFormComponent {
+export class TaskFormComponent implements OnInit {
   public newTask: Task;
   public TaskService: TaskService;
   public categories: string[];
@@ -26,9 +26,9 @@ export class TaskFormComponent {
     this.TaskService = taskService;
     this.refreshTask();
     this.categories = categoryService.getListOfCategories();
-
     this.toggleUpdateButton = false;
-
+  }
+  ngOnInit(): void {
     this.TaskService.updateState.subscribe((response: Task) => {
       this.newTask = response;
       this.toggleUpdateButton = true;
