@@ -15,7 +15,7 @@ import { Component, OnInit } from '@angular/core';
     `,
   ],
 })
-export class TaskFormComponent implements OnInit{
+export class TaskFormComponent implements OnInit {
   public newTask: Task;
   public TaskService: TaskService;
   public categories: string[];

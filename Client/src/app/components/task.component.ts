@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-task',
   templateUrl: './task.component.html',
 })
-export class TaskComponent implements OnInit{
+export class TaskComponent implements OnInit {
   private TaskService: TaskService;
   public taskList: Task[];
 

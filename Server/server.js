@@ -24,3 +24,5 @@ app.post(ROUTES.category_delete, functions.deleteItemInCategories);
 
 /// REDIRECTION ///
 app.get("*", functions.redirectHome);
+
+exports.app = app;

@@ -11,10 +11,16 @@ import { Task } from '../models/task.object';
         color: red;
         font-style: Italic;
       }
+      .remainTaskText {
+        font-style: Italic;
+      }
+      ul {
+        list-style: none;
+      }
     `,
   ],
 })
-export class TaskBilanComponent implements OnInit {
+export class TaskBilanComponent implements OnInit{
   private TaskService: TaskService;
   public taskList: Task[];
   public state: number[];
@@ -61,11 +67,11 @@ export class TaskBilanComponent implements OnInit {
   }
   // Calcule les taux des tâches de la période saisie
   calc_period_percentage(): void {
-    const response = this.TaskService.calc_periodic_percentage(
+    const response = (this.finishedInPeriod = this.TaskService.calc_periodic_percentage(
       this.taskList,
       this.periodStart,
       this.periodEnd
-    );
+    ));
     this.finishedInPeriod = response.finishedInPeriod;
     this.unfinishedInPeriod = response.unfinishedInPeriod;
     this.delayFinishedInPeriod = response.delayFinishedInPeriod;

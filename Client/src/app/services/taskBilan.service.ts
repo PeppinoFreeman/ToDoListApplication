@@ -61,9 +61,9 @@ export class TaskBilanService {
       }
     }
     if (taskCounter !== 0) {
-      obj.finishedInPeriod = (counter[0] / taskCounter) * 100;
-      obj.delayFinishedInPeriod = (counter[1] / taskCounter) * 100;
-      obj.unfinishedInPeriod = (counter[2] / taskCounter) * 100;
+      Math.round(obj.finishedInPeriod = (counter[0] / taskCounter) * 100);
+      Math.round(obj.delayFinishedInPeriod = (counter[1] / taskCounter) * 100);
+      Math.round(obj.unfinishedInPeriod = (counter[2] / taskCounter) * 100);
     } else {
       obj.finishedInPeriod = 100;
       obj.delayFinishedInPeriod = 0;
@@ -86,9 +86,9 @@ export class TaskBilanService {
         counter[2]++;
       }
     }
-    obj.finished = (counter[0] / taskList.length) * 100;
-    obj.delayFinished = (counter[1] / taskList.length) * 100;
-    obj.unfinished = (counter[2] / taskList.length) * 100;
+    obj.finished = Math.round((counter[0] / taskList.length) * 100);
+    obj.delayFinished = Math.round((counter[1] / taskList.length) * 100);
+    obj.unfinished = Math.round((counter[2] / taskList.length) * 100);
     return obj;
   }
 }

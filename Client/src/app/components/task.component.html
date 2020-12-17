@@ -1,4 +1,11 @@
-<hr />
-<button name="dateButton" (click)="nextDay()">Passer au jour suivant</button>
-<hr />
+<div class="container">
+  <div class="row">
+    <div class="text-center mb-3 mt-3">
+      <button class="btn btn-primary" name="dateButton" (click)="nextDay()">
+        Passer au jour suivant
+      </button>
+    </div>
+  </div>
+</div>
+
 <app-task-list [taskList]="taskList"></app-task-list>

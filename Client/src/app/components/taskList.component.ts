@@ -12,6 +12,10 @@ import { Component, Input } from '@angular/core';
       }
       .late {
         color: red;
+        font-weight: bold;
+      }
+      .notLate {
+        text-decoration: underline;
       }
     `,
   ],
@@ -19,9 +23,11 @@ import { Component, Input } from '@angular/core';
 export class TaskListComponent {
   private TaskService: TaskService;
   @Input() taskList: Task[];
+  public isCollapsed: boolean[];
 
   constructor(taskService: TaskService) {
     this.TaskService = taskService;
+    this.isCollapsed = new Array<boolean>(20).fill(true);
   }
 
   // Modifie l'état de réalisation d'une tâche

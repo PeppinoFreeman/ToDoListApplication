@@ -1,6 +1,6 @@
 const mongoose = require("./lib/mongoDB").mongoose,
-  Task = require("./lib/taskSchema").Task,
-  Category = require("./lib/taskSchema").Categories;
+  Task = require("./lib/Schema").Task,
+  Category = require("./lib/Schema").Categories;
 
 // Test d'erreur sur une requête
 testError = (err, Obj) => {
@@ -89,7 +89,7 @@ exports.updateItemInCategories = (req, res) => {
   )
     .catch(testError)
     .then((Category) => {
-      res.json(Category);
+      res.send(Category);
     });
 };
 // Supprime une catégorie de la BD

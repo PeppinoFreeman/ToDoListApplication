@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mockgoose": "^8.0.4",
+    "mongoose": "^5.10.12",
+    "supertest": "^6.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "mongodb-memory-server": "^6.9.2",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "nyc --reporter=html mocha 'testing/*.js' --recursive",
+    "develop": "nodemon ./server.js --watch testing -x \"npm run test\""
+  },
+  "author": "",
+  "license": "ISC"
+}

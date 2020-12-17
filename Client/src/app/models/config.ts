@@ -3,12 +3,12 @@ export class Config {
     return {
       collection: '/collection',
       collection2: '/collection2',
-      category: '/category_list',
+      category: '/category',
       categoryDelete: '/category_delete',
     };
   }
   public static get TITLE(): string {
-    return 'ToDoListApplication';
+    return 'Liste To Do';
   }
   public static get ONE_DAY(): number {
     return 24 * 3600 * 1000;
