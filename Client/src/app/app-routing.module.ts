@@ -5,7 +5,7 @@ import { TaskFormComponent } from './components/taskForm.component';
 import { CategoryComponent } from './components/category.component';
 import { TaskBilanComponent } from './components/taskBilan.component';
 
-const routes: Routes = [
+export const routes: Routes = [
     {
         path: '',
         component: TaskComponent

@@ -1,5 +1,7 @@
 <div class="container">
-  <div class="row col-lg-6 bg-secondary text-white rounded mx-auto mt-2 hTitles">
+  <div
+    class="row col-lg-6 bg-secondary text-white rounded mx-auto mt-2 hTitles"
+  >
     <h2 class="text-center">Liste des catégories</h2>
   </div>
   <div class="row col-lg-6 bg-dark text-white rounded mx-auto pb-2 pt-2 tBody">
@@ -18,6 +20,7 @@
       </div>
 
       <button
+        id="createButton"
         class="btn btn-outline-primary my-2 mr-2"
         [disabled]="!form.form.valid"
         *ngIf="!form.form.valid"
@@ -25,6 +28,7 @@
         Ajouter
       </button>
       <button
+        id="createButton"
         class="btn btn-primary my-2 mr-2"
         (click)="createCategory()"
         *ngIf="form.form.valid"
@@ -33,6 +37,7 @@
       </button>
 
       <button
+        id="renameButton"
         class="btn btn-outline-primary my-2 ml-2"
         [hidden]="!Category.toggleRename"
         [disabled]="!form.form.valid"
@@ -41,6 +46,7 @@
         Modifier
       </button>
       <button
+        id="renameButton"
         class="btn btn-primary my-2 ml-2"
         [hidden]="!Category.toggleRename"
         *ngIf="form.form.valid"
@@ -65,7 +71,11 @@
         </option>
       </select>
 
-      <button class="btn btn-danger my-2 mr-2" (click)="deleteCategory()">
+      <button
+        id="deleteButton"
+        class="btn btn-danger my-2 mr-2"
+        (click)="deleteCategory()"
+      >
         Supprimer
       </button>
       <button

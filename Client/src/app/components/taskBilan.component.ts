@@ -1,5 +1,5 @@
 import { TaskService } from './../services/task.service';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Task } from '../models/task.object';
 
 @Component({
@@ -20,7 +20,7 @@ import { Task } from '../models/task.object';
     `,
   ],
 })
-export class TaskBilanComponent {
+export class TaskBilanComponent implements OnInit{
   private TaskService: TaskService;
   public taskList: Task[];
   public state: number[];
@@ -37,12 +37,15 @@ export class TaskBilanComponent {
 
   constructor(taskService: TaskService) {
     this.TaskService = taskService;
-    taskService.updateList.subscribe((taskList: Task[]) => {
+  }
+  ngOnInit(): void {
+    this.TaskService.updateList.subscribe((taskList: Task[]) => {
       this.taskList = taskList;
       this.calc_global_percentage();
     });
-    taskService.getServerTaskList();
+    this.TaskService.getServerTaskList();
   }
+
   // Teste la cohérence entre les dates de la période
   testPeriodError(): boolean {
     const test: boolean = this.TaskService.testPeriodError(

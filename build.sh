@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd "C:\Users\Tycoon\Documents\Atom Projects\TP Bootstrap\Client"
+cd "Client"
 ng build
-cd "C:\Users\Tycoon\Documents\Atom Projects\TP Bootstrap\Server"
+cd "..\Server"
 nodemon server.js 
