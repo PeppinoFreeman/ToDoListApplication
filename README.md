@@ -1,8 +1,8 @@
-Vous avez à disposition les fichiers suivants :
+Vous avez à disposition les fichiers suivants pour exécuter/tester l'application :
 
-- back_test.sh
-- front_test.sh
-- build.sh
+- **build.sh :** pour compiler et démarrer l'application sur un serveur local avec le port 4000.
+- **front_test.sh :** pour tester l'application côté client. Lance le débugger Jasmine sur le navigateur.
+- **back_test.sh :** pour tester l'application côté server. Lance le débugger Mocha dans la console.
 
 # ToDoListApplication
 
