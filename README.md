@@ -1,3 +1,9 @@
+Vous avez à disposition les fichiers suivants :
+
+- back_test.sh
+- front_test.sh
+- build.sh
+
 # ToDoListApplication
 
 *Ceci n'est qu'un extrait du fichier de l'architecture.*
