@@ -4,7 +4,7 @@ Vous avez à disposition les fichiers suivants pour exécuter/tester l'applicati
 - **front_test.sh :** pour tester l'application côté client. Lance le débugger Jasmine sur le navigateur.
 - **back_test.sh :** pour tester l'application côté server. Lance le débugger Mocha dans la console.
 
-# ToDoListApplication
+# Application To Do List 
 
 *Ceci n'est qu'un extrait du fichier de l'architecture.*
 
