@@ -18,3 +18,16 @@ L’utilisateur peut également ajouter une nouvelle catégorie ou supprimer cel
 - L’utilisateur peut consulter le bilan total des tâches réalisées dans les temps, avec un retard ou non réalisées. Ainsi qu’un bilan périodique basé sur les dates saisies par l’utilisateur. 
 
 - L’utilisateur peut naviguer entre quatre vues qui contiennent : la liste de tâche, le formulaire d’édition d’une tâche, le formulaire d’édition d’une catégorie, et le bilan des tâches. L’utilisateur est accueilli par la première vue.  
+
+
+<h2> Aperçu de l'application </h2>
+
+- Sur un grand écran :
+<p align="center">
+  <img src="AppView.JPG"></img>
+</p>
+
+- Sur un écran de téléphone :
+<p align="center">
+  <img src="AppView_mini.JPG" width=40% height=40%></img>
+</p>
