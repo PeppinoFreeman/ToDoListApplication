@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1092px" preserveAspectRatio="none" style="width:363px;height:1092px;" version="1.1" viewBox="0 0 363 1092" width="363px" zoomAndPan="magnify"><defs><filter height="300%" id="f1su58mnv7xiz1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1su58mnv7xiz1)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="132" x="38" y="87"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="43" y="112.7285">Catégorie existante</text><rect fill="#FEFECE" filter="url(#f1su58mnv7xiz1)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="142" x="33" y="486"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="38" y="511.7285">Catégorie supprimée</text><g id="s3"><rect fill="#FEFECE" filter="url(#f1su58mnv7xiz1)" height="85.4063" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="194" x="7" y="604"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="201" y1="649.2188" y2="649.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="27.5" y="623.5332">Catégories de la liste de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="38.5" y="641.1426">tâches non-modifiées</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="174" x="12" y="666.6758">Nom de la catégorie supprimée</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="154" x="12" y="681.7695">différent de "sans catégorie"</text></g><g id="s4"><rect fill="#FEFECE" filter="url(#f1su58mnv7xiz1)" height="85.4063" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="194" x="7" y="914"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="201" y1="959.2188" y2="959.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="27.5" y="933.5332">Catégories de la liste de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="53" y="951.1426">tâches modifiées</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="174" x="12" y="976.6758">Nom de la catégorie supprimée</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="127" x="12" y="991.7695">égal à "sans catégorie"</text></g><rect fill="#FEFECE" filter="url(#f1su58mnv7xiz1)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="89" x="59.5" y="221"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="64.5" y="246.7285">Suppression</text><g id="a2"><rect fill="#FEFECE" filter="url(#f1su58mnv7xiz1)" height="52.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="176" x="16" y="355"/><line style="stroke:#A80036;stroke-width:1.5;" x1="16" x2="192" y1="382.6094" y2="382.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="26" y="374.5332">Validation par le Serveur</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="149" x="21" y="400.0664">entry/Valide la suppression</text></g><g id="a3"><rect fill="#FEFECE" filter="url(#f1su58mnv7xiz1)" height="52.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="176" x="16" y="783"/><line style="stroke:#A80036;stroke-width:1.5;" x1="16" x2="192" y1="810.6094" y2="810.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="26" y="802.5332">Validation par le Serveur</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="141" x="21" y="828.0664">entry/Valide la mise à jour</text></g><ellipse cx="104" cy="16" fill="#000000" filter="url(#f1su58mnv7xiz1)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="104" cy="1070" fill="none" filter="url(#f1su58mnv7xiz1)" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;"/><ellipse cx="104.5" cy="1070.5" fill="#000000" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[0851647b0d029610cd0ab4962f9816f7]
+link *start to s1--><path d="M104,26.19 C104,39.18 104,63.38 104,81.73 " fill="none" id="*start-to-s1" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="104,86.74,108,77.74,104,81.74,100,77.74,104,86.74" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[a2d154ce00f65537510ea9e389628176]
+link s1 to a1--><path d="M104,127.19 C104,150.56 104,190.05 104,215.56 " fill="none" id="s1-to-a1" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="104,220.78,108,211.78,104,215.78,100,211.78,104,220.78" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="101" x="105" y="171.4951">Clic sur le bouton</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="113.5" y="187.8467">de suppression</text><!--MD5=[703c378023c5affa63fc9366af484529]
+link a1 to a2--><path d="M104,261.26 C104,284.11 104,322.53 104,349.57 " fill="none" id="a1-to-a2" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="104,354.81,108,345.81,104,349.81,100,345.81,104,354.81" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="122" x="105" y="305.4951">Envoi d'une demande</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="124" y="321.8467">de suppression</text><!--MD5=[48d3f9aae159242523602008833a3ae1]
+link a2 to a2--><path d="M192.18,369.78 C212.27,370.81 227,374.72 227,381.5 C227,387.7 214.69,391.5 197.23,392.89 " fill="none" id="a2-to-a2" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="192.18,393.22,201.4236,396.6195,197.1692,392.8912,200.8975,388.6368,192.18,393.22" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="233" y="386.9951">Attente de validation</text><!--MD5=[100c46869844544b41fcbb34f29d8653]
+link a2 to s2--><path d="M104,408.18 C104,429.52 104,459.69 104,480.65 " fill="none" id="a2-to-s2" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="104,485.77,108,476.77,104,480.77,100,476.77,104,485.77" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="115" x="105" y="452.4951">Suppression validée</text><!--MD5=[1bb14e5b120dc78dcb30347d6f04721d]
+link s2 to s3--><path d="M104,526.26 C104,544.92 104,573.97 104,598.72 " fill="none" id="s2-to-s3" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="104,603.93,108,594.93,104,598.93,100,594.93,104,603.93" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="161" x="105" y="570.4951">Détection de la suppression</text><!--MD5=[fa99d102d7225b335da91efd40e965c8]
+link s3 to a3--><path d="M104,689.38 C104,717.04 104,752.67 104,777.74 " fill="none" id="s3-to-a3" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="104,782.92,108,773.92,104,777.92,100,773.92,104,782.92" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="141" x="105" y="733.4951">Demande de mise à jour</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="133" y="749.8467">des catégories</text><!--MD5=[41e0d5054aa0c8c0b3152cbf89c34879]
+link a3 to a3--><path d="M192.18,797.78 C212.27,798.81 227,802.72 227,809.5 C227,815.7 214.69,819.5 197.23,820.89 " fill="none" id="a3-to-a3" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="192.18,821.22,201.4236,824.6195,197.1692,820.8912,200.8975,816.6368,192.18,821.22" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="233" y="814.9951">Attente de validation</text><!--MD5=[8a96f90c670e42c18e8732fe985bc0cb]
+link a3 to s4--><path d="M104,836.09 C104,856.2 104,884.76 104,908.9 " fill="none" id="a3-to-s4" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="104,913.98,108,904.98,104,908.98,100,904.98,104,913.98" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="126" x="105" y="880.4951">Modifications validées</text><!--MD5=[8b896e4ede848b7c0154f64ec938082b]
+link s4 to *end--><path d="M104,999.02 C104,1018.48 104,1040.42 104,1054.46 " fill="none" id="s4-to-*end" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="104,1059.61,108,1050.61,104,1054.61,100,1050.61,104,1059.61" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[87c7be26e1c3fc0a9d5e25b82ba824be]
+@startuml CategoryDelete
+
+skinparam component{
+    ArrowColor black
+}
+
+state "Catégorie existante" as s1
+state "Catégorie supprimée" as s2
+state "Catégories de la liste de\n tâches non-modifiées" as s3
+state "Catégories de la liste de\n tâches modifiées" as s4
+s3: Nom de la catégorie supprimée\ndifférent de "sans catégorie"
+s4:  Nom de la catégorie supprimée\négal à "sans catégorie"
+state "Suppression" as a1
+state "Validation par le Serveur" as a2 
+state "Validation par le Serveur" as a3
+a2:entry/Valide la suppression
+a3:entry/Valide la mise à jour
+
+hide empty description
+'Comment the following to have a vertical view
+'left to right direction
+
+[*]- ->s1
+s1- ->a1: Clic sur le bouton \nde suppression
+a1 - -> a2: Envoi d'une demande \nde suppression
+a2- ->a2: Attente de validation
+a2 - ->s2: Suppression validée
+s2- ->s3: Détection de la suppression
+s3- ->a3: Demande de mise à jour\ndes catégories
+a3- ->a3: Attente de validation
+a3- ->s4: Modifications validées
+s4- ->[*]
+
+@enduml
+
+@startuml CategoryDelete
+
+skinparam component{
+    ArrowColor black
+}
+
+state "Catégorie existante" as s1
+state "Catégorie supprimée" as s2
+state "Catégories de la liste de\n tâches non-modifiées" as s3
+state "Catégories de la liste de\n tâches modifiées" as s4
+s3: Nom de la catégorie supprimée\ndifférent de "sans catégorie"
+s4:  Nom de la catégorie supprimée\négal à "sans catégorie"
+state "Suppression" as a1
+state "Validation par le Serveur" as a2 
+state "Validation par le Serveur" as a3
+a2:entry/Valide la suppression
+a3:entry/Valide la mise à jour
+
+hide empty description
+
+[*]- ->s1
+s1- ->a1: Clic sur le bouton \nde suppression
+a1 - -> a2: Envoi d'une demande \nde suppression
+a2- ->a2: Attente de validation
+a2 - ->s2: Suppression validée
+s2- ->s3: Détection de la suppression
+s3- ->a3: Demande de mise à jour\ndes catégories
+a3- ->a3: Attente de validation
+a3- ->s4: Modifications validées
+s4- ->[*]
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: fr
+Country: FR
+--></g></svg>

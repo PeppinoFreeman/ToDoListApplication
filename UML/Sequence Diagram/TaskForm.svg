@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1251px" preserveAspectRatio="none" style="width:845px;height:1251px;" version="1.1" viewBox="0 0 845 1251" width="845px" zoomAndPan="magnify"><defs><filter height="300%" id="f88fk2jum0q68" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="981.6797" style="stroke:#A80036;stroke-width:1.0;" width="10" x="297" y="166.3125"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="132.2422" style="stroke:#A80036;stroke-width:1.0;" width="10" x="523" y="196.6641"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="91.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="523" y="635.7188"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="91.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="523" y="1026.5859"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="789" y="666.0703"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="789" y="1056.9375"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="155.5938" style="stroke:#000000;stroke-width:2.0;" width="529" x="43" y="211.6641"/><rect fill="#FFFFFF" height="76.5391" style="stroke:none;stroke-width:1.0;" width="529" x="43" y="290.7188"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="124.4063" style="stroke:#000000;stroke-width:2.0;" width="437" x="33" y="481.9609"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="48.7031" style="stroke:#000000;stroke-width:2.0;" width="312.5" x="43" y="550.6641"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="124.4063" style="stroke:#000000;stroke-width:2.0;" width="437" x="33" y="872.8281"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="48.7031" style="stroke:#000000;stroke-width:2.0;" width="312.5" x="43" y="941.5313"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="87" x2="87" y1="89.6094" y2="1165.9922"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="301.5" x2="301.5" y1="89.6094" y2="1165.9922"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="528" x2="528" y1="89.6094" y2="1165.9922"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="793.5" x2="793.5" y1="89.6094" y2="1165.9922"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="53" y="86.5332">Utilisateur</text><ellipse cx="87" cy="15" fill="#FEFECE" filter="url(#f88fk2jum0q68)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M87,23 L87,50 M74,31 L100,31 M87,50 L74,65 M87,50 L100,65 " fill="none" filter="url(#f88fk2jum0q68)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="53" y="1179.5254">Utilisateur</text><ellipse cx="87" cy="1192.6016" fill="#FEFECE" filter="url(#f88fk2jum0q68)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M87,1200.6016 L87,1227.6016 M74,1208.6016 L100,1208.6016 M87,1227.6016 L74,1242.6016 M87,1227.6016 L100,1242.6016 " fill="none" filter="url(#f88fk2jum0q68)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f88fk2jum0q68)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="258.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="265.5" y="74.5332">Application</text><rect fill="#FEFECE" filter="url(#f88fk2jum0q68)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="258.5" y="1164.9922"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="265.5" y="1186.5254">Application</text><rect fill="#FEFECE" filter="url(#f88fk2jum0q68)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="494" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="501" y="74.5332">Serveur</text><rect fill="#FEFECE" filter="url(#f88fk2jum0q68)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="494" y="1164.9922"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="501" y="1186.5254">Serveur</text><rect fill="#FEFECE" filter="url(#f88fk2jum0q68)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="75" x="754.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="761.5" y="74.5332">Database</text><rect fill="#FEFECE" filter="url(#f88fk2jum0q68)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="75" x="754.5" y="1164.9922"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="761.5" y="1186.5254">Database</text><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="981.6797" style="stroke:#A80036;stroke-width:1.0;" width="10" x="297" y="166.3125"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="132.2422" style="stroke:#A80036;stroke-width:1.0;" width="10" x="523" y="196.6641"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="91.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="523" y="635.7188"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="91.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="523" y="1026.5859"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="789" y="666.0703"/><rect fill="#FFFFFF" filter="url(#f88fk2jum0q68)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="789" y="1056.9375"/><rect fill="#EEEEEE" filter="url(#f88fk2jum0q68)" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="838.5" x="0" y="120.7852"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="838.5" y1="120.7852" y2="120.7852"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="838.5" y1="123.7852" y2="123.7852"/><rect fill="#EEEEEE" filter="url(#f88fk2jum0q68)" height="24.3516" style="stroke:#000000;stroke-width:2.0;" width="200" x="319.25" y="109.6094"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="182" x="325.25" y="127.1045">Page de formulaire de tâche</text><polygon fill="#A80036" points="285,162.3125,295,166.3125,285,170.3125,289,166.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="87" x2="291" y1="166.3125" y2="166.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="191" x="94" y="161.4561">Naviguer vers la vue du formulaire</text><polygon fill="#A80036" points="511,192.6641,521,196.6641,511,200.6641,515,196.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="307" x2="517" y1="196.6641" y2="196.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="197" x="314" y="191.8076">Requête GET de la page de la vue</text><path d="M43,211.6641 L104,211.6641 L104,219.6641 L94,229.6641 L43,229.6641 L43,211.6641 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="155.5938" style="stroke:#000000;stroke-width:2.0;" width="529" x="43" y="211.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="58" y="226.1592">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="48" x="119" y="225.083">[Succès]</text><polygon fill="#A80036" points="318,248.3672,308,252.3672,318,256.3672,314,252.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="312" x2="522" y1="252.3672" y2="252.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="94" x="324" y="247.5107">Requête résolue</text><polygon fill="#A80036" points="98,278.7188,88,282.7188,98,286.7188,94,282.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="92" x2="296" y1="282.7188" y2="282.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="104" y="277.8623">Afficher la page</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="43" x2="572" y1="291.7188" y2="291.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="48" y="303.1377">[Echec]</text><polygon fill="#A80036" points="318,324.9063,308,328.9063,318,332.9063,314,328.9063" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="312" x2="527" y1="328.9063" y2="328.9063"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="324" y="324.0498">Requête non-résolue</text><polygon fill="#A80036" points="98,355.2578,88,359.2578,98,363.2578,94,359.2578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="92" x2="296" y1="359.2578" y2="359.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="146" x="104" y="354.4014">Afficher une page d'erreur</text><path d="M15,409.2578 L15,435.2578 L154,435.2578 L154,419.2578 L144,409.2578 L15,409.2578 " fill="#FBFB77" filter="url(#f88fk2jum0q68)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M144,409.2578 L144,419.2578 L154,419.2578 L144,409.2578 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="118" x="21" y="427.7529">Création d'une tâche</text><polygon fill="#A80036" points="285,462.9609,295,466.9609,285,470.9609,289,466.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="87" x2="291" y1="466.9609" y2="466.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="142" x="94" y="462.1045">Créer une nouvelle tâche</text><path d="M33,481.9609 L106,481.9609 L106,489.9609 L96,499.9609 L33,499.9609 L33,481.9609 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="124.4063" style="stroke:#000000;stroke-width:2.0;" width="437" x="33" y="481.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="48" y="496.4561">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="204" x="121" y="495.3799">[Tant qu'il y a une erreur sur le form]</text><line style="stroke:#A80036;stroke-width:1.0;" x1="307" x2="349" y1="522.6641" y2="522.6641"/><line style="stroke:#A80036;stroke-width:1.0;" x1="349" x2="349" y1="522.6641" y2="535.6641"/><line style="stroke:#A80036;stroke-width:1.0;" x1="308" x2="349" y1="535.6641" y2="535.6641"/><polygon fill="#A80036" points="318,531.6641,308,535.6641,318,539.6641,314,535.6641" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="144" x="314" y="517.8076">Vérifier la validité du form</text><path d="M43,550.6641 L104,550.6641 L104,558.6641 L94,568.6641 L43,568.6641 L43,550.6641 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="48.7031" style="stroke:#000000;stroke-width:2.0;" width="312.5" x="43" y="550.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="58" y="565.1592">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="119" y="564.083">[Erreur dans le formulaire]</text><polygon fill="#A80036" points="98,587.3672,88,591.3672,98,595.3672,94,591.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="92" x2="296" y1="591.3672" y2="591.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="164" x="104" y="586.5107">Attente de nouvelles entrées</text><polygon fill="#A80036" points="511,631.7188,521,635.7188,511,639.7188,515,635.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="307" x2="517" y1="635.7188" y2="635.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="155" x="314" y="630.8623">Requête POST de la tâche</text><polygon fill="#A80036" points="777,662.0703,787,666.0703,777,670.0703,781,666.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="533" x2="783" y1="666.0703" y2="666.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="182" x="540" y="661.2139">Ajout de la tâche à la collection</text><polygon fill="#A80036" points="544,692.4219,534,696.4219,544,700.4219,540,696.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="538" x2="793" y1="696.4219" y2="696.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="550" y="691.5654">Succès</text><polygon fill="#A80036" points="318,722.7734,308,726.7734,318,730.7734,314,726.7734" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="312" x2="527" y1="726.7734" y2="726.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="94" x="324" y="721.917">Requête résolue</text><polygon fill="#A80036" points="98,753.125,88,757.125,98,761.125,94,757.125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="92" x2="296" y1="757.125" y2="757.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="179" x="104" y="752.2686">Réorganiser la liste des tâches</text><path d="M5,800.125 L5,826.125 L165,826.125 L165,810.125 L155,800.125 L5,800.125 " fill="#FBFB77" filter="url(#f88fk2jum0q68)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M155,800.125 L155,810.125 L165,810.125 L155,800.125 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="139" x="11" y="818.6201">Modification d'une tâche</text><polygon fill="#A80036" points="285,853.8281,295,857.8281,285,861.8281,289,857.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="87" x2="291" y1="857.8281" y2="857.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="163" x="94" y="852.9717">Modifier une tâche existante</text><path d="M33,872.8281 L106,872.8281 L106,880.8281 L96,890.8281 L33,890.8281 L33,872.8281 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="124.4063" style="stroke:#000000;stroke-width:2.0;" width="437" x="33" y="872.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="48" y="887.3232">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="204" x="121" y="886.2471">[Tant qu'il y a une erreur sur le form]</text><line style="stroke:#A80036;stroke-width:1.0;" x1="307" x2="349" y1="913.5313" y2="913.5313"/><line style="stroke:#A80036;stroke-width:1.0;" x1="349" x2="349" y1="913.5313" y2="926.5313"/><line style="stroke:#A80036;stroke-width:1.0;" x1="308" x2="349" y1="926.5313" y2="926.5313"/><polygon fill="#A80036" points="318,922.5313,308,926.5313,318,930.5313,314,926.5313" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="144" x="314" y="908.6748">Vérifier la validité du form</text><path d="M43,941.5313 L104,941.5313 L104,949.5313 L94,959.5313 L43,959.5313 L43,941.5313 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="48.7031" style="stroke:#000000;stroke-width:2.0;" width="312.5" x="43" y="941.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="58" y="956.0264">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="119" y="954.9502">[Erreur dans le formulaire]</text><polygon fill="#A80036" points="98,978.2344,88,982.2344,98,986.2344,94,982.2344" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="92" x2="296" y1="982.2344" y2="982.2344"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="164" x="104" y="977.3779">Attente de nouvelles entrées</text><polygon fill="#A80036" points="511,1022.5859,521,1026.5859,511,1030.5859,515,1026.5859" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="307" x2="517" y1="1026.5859" y2="1026.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="145" x="314" y="1021.7295">Requête PUT de la tâche</text><polygon fill="#A80036" points="777,1052.9375,787,1056.9375,777,1060.9375,781,1056.9375" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="533" x2="783" y1="1056.9375" y2="1056.9375"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="237" x="540" y="1052.0811">Mise à jour de la tâche dans la collection</text><polygon fill="#A80036" points="544,1083.2891,534,1087.2891,544,1091.2891,540,1087.2891" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="538" x2="793" y1="1087.2891" y2="1087.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="550" y="1082.4326">Succès</text><polygon fill="#A80036" points="318,1113.6406,308,1117.6406,318,1121.6406,314,1117.6406" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="312" x2="527" y1="1117.6406" y2="1117.6406"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="94" x="324" y="1112.7842">Requête résolue</text><polygon fill="#A80036" points="98,1143.9922,88,1147.9922,98,1151.9922,94,1147.9922" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="92" x2="301" y1="1147.9922" y2="1147.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="179" x="104" y="1143.1357">Réorganiser la liste des tâches</text><!--MD5=[2745230f2da84ee4bfa78c13266980d1]
+@startuml diagram name
+
+actor Utilisateur
+participant Application
+participant Serveur
+participant Database
+
+== Page de formulaire de tâche ==
+Utilisateur -> Application: Naviguer vers la vue du formulaire
+activate Application
+Application -> Serveur: Requête GET de la page de la vue
+activate Serveur
+alt Succès
+    Serveur - -> Application: Requête résolue
+    Application -> Utilisateur: Afficher la page
+else Echec
+    Serveur - -> Application: Requête non-résolue
+    deactivate Serveur
+    Application -> Utilisateur: Afficher une page d'erreur
+end
+'Créer une nouvelle tâche
+||30||
+note over Utilisateur: Création d'une tâche
+Utilisateur -> Application: Créer une nouvelle tâche
+loop Tant qu'il y a une erreur sur le form
+    Application -> Application: Vérifier la validité du form
+    alt Erreur dans le formulaire
+        Application - -> Utilisateur:Attente de nouvelles entrées
+    end
+end
+Application -> Serveur: Requête POST de la tâche
+activate Serveur
+Serveur -> Database: Ajout de la tâche à la collection
+activate Database
+Database - -> Serveur: Succès
+deactivate Database
+Serveur - -> Application: Requête résolue
+deactivate Serveur
+Application -> Utilisateur: Réorganiser la liste des tâches
+||30||
+'Modifier une tâche existante
+note over Utilisateur: Modification d'une tâche
+Utilisateur -> Application: Modifier une tâche existante
+loop Tant qu'il y a une erreur sur le form
+    Application -> Application: Vérifier la validité du form
+    alt Erreur dans le formulaire
+        Application - -> Utilisateur:Attente de nouvelles entrées
+    end
+end
+Application -> Serveur: Requête PUT de la tâche
+activate Serveur
+Serveur -> Database: Mise à jour de la tâche dans la collection
+activate Database
+Database - -> Serveur: Succès
+deactivate Database
+Serveur - -> Application: Requête résolue
+deactivate Serveur
+Application -> Utilisateur: Réorganiser la liste des tâches
+deactivate Application
+
+@enduml
+
+@startuml diagram name
+
+actor Utilisateur
+participant Application
+participant Serveur
+participant Database
+
+== Page de formulaire de tâche ==
+Utilisateur -> Application: Naviguer vers la vue du formulaire
+activate Application
+Application -> Serveur: Requête GET de la page de la vue
+activate Serveur
+alt Succès
+    Serveur - -> Application: Requête résolue
+    Application -> Utilisateur: Afficher la page
+else Echec
+    Serveur - -> Application: Requête non-résolue
+    deactivate Serveur
+    Application -> Utilisateur: Afficher une page d'erreur
+end
+||30||
+note over Utilisateur: Création d'une tâche
+Utilisateur -> Application: Créer une nouvelle tâche
+loop Tant qu'il y a une erreur sur le form
+    Application -> Application: Vérifier la validité du form
+    alt Erreur dans le formulaire
+        Application - -> Utilisateur:Attente de nouvelles entrées
+    end
+end
+Application -> Serveur: Requête POST de la tâche
+activate Serveur
+Serveur -> Database: Ajout de la tâche à la collection
+activate Database
+Database - -> Serveur: Succès
+deactivate Database
+Serveur - -> Application: Requête résolue
+deactivate Serveur
+Application -> Utilisateur: Réorganiser la liste des tâches
+||30||
+note over Utilisateur: Modification d'une tâche
+Utilisateur -> Application: Modifier une tâche existante
+loop Tant qu'il y a une erreur sur le form
+    Application -> Application: Vérifier la validité du form
+    alt Erreur dans le formulaire
+        Application - -> Utilisateur:Attente de nouvelles entrées
+    end
+end
+Application -> Serveur: Requête PUT de la tâche
+activate Serveur
+Serveur -> Database: Mise à jour de la tâche dans la collection
+activate Database
+Database - -> Serveur: Succès
+deactivate Database
+Serveur - -> Application: Requête résolue
+deactivate Serveur
+Application -> Utilisateur: Réorganiser la liste des tâches
+deactivate Application
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: fr
+Country: FR
+--></g></svg>

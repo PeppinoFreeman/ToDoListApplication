@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="632px" preserveAspectRatio="none" style="width:369px;height:632px;" version="1.1" viewBox="0 0 369 632" width="369px" zoomAndPan="magnify"><defs><filter height="300%" id="f1wetwi6eguosc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1wetwi6eguosc)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="143" x="48.5" y="87"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="53.5" y="112.7285">Catégorie inexistante</text><rect fill="#FEFECE" filter="url(#f1wetwi6eguosc)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="112" x="64" y="499"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="69" y="524.7285">Catégorie créée</text><g id="a1"><rect fill="#FEFECE" filter="url(#f1wetwi6eguosc)" height="52.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="226" x="7" y="221"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="233" y1="248.6094" y2="248.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="86" y="240.5332">Formulaire</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="206" x="12" y="266.0664">do/Vérification du nom de la catégorie</text></g><g id="a2"><rect fill="#FEFECE" filter="url(#f1wetwi6eguosc)" height="52.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="156" x="42" y="368"/><line style="stroke:#A80036;stroke-width:1.5;" x1="42" x2="198" y1="395.6094" y2="395.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="52" y="387.5332">Validation du Serveur</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="123" x="47" y="413.0664">entry/Valide la création</text></g><ellipse cx="120" cy="16" fill="#000000" filter="url(#f1wetwi6eguosc)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="120" cy="610" fill="none" filter="url(#f1wetwi6eguosc)" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;"/><ellipse cx="120.5" cy="610.5" fill="#000000" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[0851647b0d029610cd0ab4962f9816f7]
+link *start to s1--><path d="M120,26.19 C120,39.18 120,63.38 120,81.73 " fill="none" id="*start-to-s1" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="120,86.74,124,77.74,120,81.74,116,77.74,120,86.74" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[a2d154ce00f65537510ea9e389628176]
+link s1 to a1--><path d="M84.45,127.02 C73.6,134.76 62.97,144.8 57,157 C50.36,170.57 50.78,177.23 57,191 C61.49,200.93 68.73,209.8 76.73,217.37 " fill="none" id="s1-to-a1" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="80.71,220.98,76.7326,211.97,77.0071,217.6202,71.3569,217.8947,80.71,220.98" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#FF0000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67" x="58" y="171.4951">Insertion de</text><text fill="#FF0000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="73" y="187.8467">données</text><!--MD5=[3c1b9348a0f224b20d2c3281d4ceedec]
+link a1 to s1--><path d="M132.5,220.85 C136.35,211.66 140.08,201.08 142,191 C144.83,176.16 145.16,171.78 142,157 C140.19,148.54 136.8,139.78 133.22,132.05 " fill="none" id="a1-to-s1" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="130.98,127.38,131.2513,137.2251,133.1358,131.8914,138.4695,133.7759,130.98,127.38" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="62" x="148" y="171.4951">[Donnéees</text><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="68" x="145" y="187.8467">incorrectes]</text><!--MD5=[703c378023c5affa63fc9366af484529]
+link a1 to a2--><path d="M120,274.09 C120,298.78 120,336.21 120,362.56 " fill="none" id="a1-to-a2" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="120,367.68,124,358.68,120,362.68,116,358.68,120,367.68" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="121" x="153.5" y="318.4951">[Données correctes]/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="186" x="121" y="334.8467">Envoi d'un formulaire de création</text><!--MD5=[100c46869844544b41fcbb34f29d8653]
+link a2 to s2--><path d="M120,421.18 C120,442.52 120,472.69 120,493.65 " fill="none" id="a2-to-s2" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="120,498.77,124,489.77,120,493.77,116,489.77,120,498.77" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="66" x="121" y="465.4951">Ajout validé</text><!--MD5=[48d3f9aae159242523602008833a3ae1]
+link a2 to a2--><path d="M198.16,382.64 C218.06,383.42 233,387.37 233,394.5 C233,401.01 220.52,404.87 203.18,406.09 " fill="none" id="a2-to-a2" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="198.16,406.36,207.3641,409.8648,203.1526,406.0882,206.9292,401.8767,198.16,406.36" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="239" y="399.9951">Attente de validation</text><!--MD5=[feecdfac5bcfd1ac637cb1a50c063d90]
+link s2 to *end--><path d="M120,539.31 C120,555.89 120,579.41 120,594.44 " fill="none" id="s2-to-*end" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="120,599.56,124,590.56,120,594.56,116,590.56,120,599.56" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[aede6de92d6c1f502ecc4349cfa72c65]
+@startuml CategoryCreate
+
+skinparam component{
+    ArrowColor black
+}
+
+state "Catégorie inexistante" as s1
+state "Catégorie créée" as s2
+state "Formulaire" as a1
+state "Validation du Serveur" as a2
+
+a1: do/Vérification du nom de la catégorie
+a2: entry/Valide la création
+
+hide empty description
+'Comment the following to have a vertical view
+'left to right direction
+
+[*]- ->s1
+s1 -[#red]-> a1: <color:red>Insertion de   \n<color:red>données 
+a1 -[#blue]-> s1: <color:blue>[Donnéees\n<color:blue>incorrectes]
+a1 - -> a2: [Données correctes]/\nEnvoi d'un formulaire de création
+a2 - -> s2: Ajout validé
+a2- ->a2: Attente de validation 
+s2- ->[*]
+
+@enduml
+
+@startuml CategoryCreate
+
+skinparam component{
+    ArrowColor black
+}
+
+state "Catégorie inexistante" as s1
+state "Catégorie créée" as s2
+state "Formulaire" as a1
+state "Validation du Serveur" as a2
+
+a1: do/Vérification du nom de la catégorie
+a2: entry/Valide la création
+
+hide empty description
+
+[*]- ->s1
+s1 -[#red]-> a1: <color:red>Insertion de   \n<color:red>données 
+a1 -[#blue]-> s1: <color:blue>[Donnéees\n<color:blue>incorrectes]
+a1 - -> a2: [Données correctes]/\nEnvoi d'un formulaire de création
+a2 - -> s2: Ajout validé
+a2- ->a2: Attente de validation 
+s2- ->[*]
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: fr
+Country: FR
+--></g></svg>

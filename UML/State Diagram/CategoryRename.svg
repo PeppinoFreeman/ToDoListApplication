@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1059px" preserveAspectRatio="none" style="width:379px;height:1059px;" version="1.1" viewBox="0 0 379 1059" width="379px" zoomAndPan="magnify"><defs><filter height="300%" id="f1uko5htbns0mo" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1uko5htbns0mo)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="116" x="62" y="87"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="67" y="112.7285">Catégorie initiale</text><rect fill="#FEFECE" filter="url(#f1uko5htbns0mo)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="129" x="55.5" y="499"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="119" x="60.5" y="524.7285">Catégorie modifiée</text><g id="s3"><rect fill="#FEFECE" filter="url(#f1uko5htbns0mo)" height="70.3125" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="173" x="33.5" y="617"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="206.5" y1="662.2188" y2="662.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="43.5" y="636.5332">Catégories de la liste de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="54.5" y="654.1426">tâches non-modifiées</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="150" x="38.5" y="679.6758">Nom de la catégorie initiale</text></g><g id="s4"><rect fill="#FEFECE" filter="url(#f1uko5htbns0mo)" height="70.3125" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="180" x="30" y="896"/><line style="stroke:#A80036;stroke-width:1.5;" x1="30" x2="210" y1="941.2188" y2="941.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="43.5" y="915.5332">Catégories de la liste de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="69" y="933.1426">tâches modifiées</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="160" x="35" y="958.6758">Nom de la nouvelle catégorie</text></g><g id="a1"><rect fill="#FEFECE" filter="url(#f1uko5htbns0mo)" height="52.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="226" x="7" y="221"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="233" y1="248.6094" y2="248.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="86" y="240.5332">Formulaire</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="206" x="12" y="266.0664">do/Vérification du nom de la catégorie</text></g><g id="a2"><rect fill="#FEFECE" filter="url(#f1uko5htbns0mo)" height="52.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="176" x="32" y="368"/><line style="stroke:#A80036;stroke-width:1.5;" x1="32" x2="208" y1="395.6094" y2="395.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="42" y="387.5332">Validation par le Serveur</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="146" x="37" y="413.0664">entry/Valide la modification</text></g><g id="a3"><rect fill="#FEFECE" filter="url(#f1uko5htbns0mo)" height="52.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="176" x="32" y="765"/><line style="stroke:#A80036;stroke-width:1.5;" x1="32" x2="208" y1="792.6094" y2="792.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="42" y="784.5332">Validation par le Serveur</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="146" x="37" y="810.0664">entry/Valide la modification</text></g><ellipse cx="120" cy="16" fill="#000000" filter="url(#f1uko5htbns0mo)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="120" cy="1037" fill="none" filter="url(#f1uko5htbns0mo)" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;"/><ellipse cx="120.5" cy="1037.5" fill="#000000" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[0851647b0d029610cd0ab4962f9816f7]
+link *start to s1--><path d="M120,26.19 C120,39.18 120,63.38 120,81.73 " fill="none" id="*start-to-s1" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="120,86.74,124,77.74,120,81.74,116,77.74,120,86.74" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[a2d154ce00f65537510ea9e389628176]
+link s1 to a1--><path d="M84.45,127.02 C73.6,134.76 62.97,144.8 57,157 C50.36,170.57 50.78,177.23 57,191 C61.49,200.93 68.73,209.8 76.73,217.37 " fill="none" id="s1-to-a1" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="80.71,220.98,76.7326,211.97,77.0071,217.6202,71.3569,217.8947,80.71,220.98" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#FF0000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67" x="58" y="171.4951">Insertion de</text><text fill="#FF0000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="73" y="187.8467">données</text><!--MD5=[3c1b9348a0f224b20d2c3281d4ceedec]
+link a1 to s1--><path d="M132.5,220.85 C136.35,211.66 140.08,201.08 142,191 C144.83,176.16 145.16,171.78 142,157 C140.19,148.54 136.8,139.78 133.22,132.05 " fill="none" id="a1-to-s1" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="130.98,127.38,131.2513,137.2251,133.1358,131.8914,138.4695,133.7759,130.98,127.38" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="62" x="150" y="171.4951">[Donnéees</text><text fill="#0000FF" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="68" x="149" y="187.8467">incorrectes]</text><!--MD5=[703c378023c5affa63fc9366af484529]
+link a1 to a2--><path d="M120,274.09 C120,298.78 120,336.21 120,362.56 " fill="none" id="a1-to-a2" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="120,367.68,124,358.68,120,362.68,116,358.68,120,367.68" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="121" x="165" y="318.4951">[Données correctes]/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="209" x="121" y="334.8467">Envoi d'un formulaire de modification</text><!--MD5=[100c46869844544b41fcbb34f29d8653]
+link a2 to s2--><path d="M120,421.18 C120,442.52 120,472.69 120,493.65 " fill="none" id="a2-to-s2" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="120,498.77,124,489.77,120,493.77,116,489.77,120,498.77" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="107" x="121" y="465.4951">Mise à jour validée</text><!--MD5=[48d3f9aae159242523602008833a3ae1]
+link a2 to a2--><path d="M208.18,382.78 C228.27,383.81 243,387.72 243,394.5 C243,400.7 230.69,404.5 213.23,405.89 " fill="none" id="a2-to-a2" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="208.18,406.22,217.4236,409.6195,213.1692,405.8912,216.8975,401.6368,208.18,406.22" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="249" y="399.9951">Attente de validation</text><!--MD5=[1bb14e5b120dc78dcb30347d6f04721d]
+link s2 to s3--><path d="M120,539.05 C120,558.06 120,587.84 120,611.9 " fill="none" id="s2-to-s3" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="120,616.94,124,607.94,120,611.94,116,607.94,120,616.94" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="155" x="121" y="583.4951">Détection de changements</text><!--MD5=[fa99d102d7225b335da91efd40e965c8]
+link s3 to a3--><path d="M120,687.34 C120,709.58 120,738.29 120,759.78 " fill="none" id="s3-to-a3" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="120,764.8,124,755.8,120,759.8,116,755.8,120,764.8" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="158" x="121" y="731.4951">Modification de la catégorie</text><!--MD5=[41e0d5054aa0c8c0b3152cbf89c34879]
+link a3 to a3--><path d="M208.18,779.78 C228.27,780.81 243,784.72 243,791.5 C243,797.7 230.69,801.5 213.23,802.89 " fill="none" id="a3-to-a3" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="208.18,803.22,217.4236,806.6195,213.1692,802.8912,216.8975,798.6368,208.18,803.22" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="249" y="796.9951">Attente de validation</text><!--MD5=[8a96f90c670e42c18e8732fe985bc0cb]
+link a3 to s4--><path d="M120,818.04 C120,838.4 120,867.27 120,890.59 " fill="none" id="a3-to-s4" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="120,895.78,124,886.78,120,890.78,116,886.78,120,895.78" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="107" x="121" y="862.4951">Mise à jour validée</text><!--MD5=[8b896e4ede848b7c0154f64ec938082b]
+link s4 to *end--><path d="M120,966.05 C120,984.88 120,1007.29 120,1021.57 " fill="none" id="s4-to-*end" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="120,1026.8,124,1017.8,120,1021.8,116,1017.8,120,1026.8" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[7b7cb860f2ee7c9cb97284eac086e3af]
+@startuml CategoryRename
+
+skinparam component{
+    ArrowColor black
+}
+
+state "Catégorie initiale" as s1
+state "Catégorie modifiée" as s2
+state "Catégories de la liste de\n tâches non-modifiées" as s3
+state "Catégories de la liste de\n tâches modifiées" as s4
+state "Formulaire" as a1
+state "Validation par le Serveur" as a2
+state "Validation par le Serveur" as a3
+
+a1: do/Vérification du nom de la catégorie
+a2: entry/Valide la modification
+a3: entry/Valide la modification
+s3: Nom de la catégorie initiale
+s4: Nom de la nouvelle catégorie
+hide empty description
+'Comment the following to have a vertical view
+'left to right direction
+
+[*]- ->s1
+s1 -[#red]-> a1: <color:red>Insertion de   \n<color:red>données
+a1 -[#blue]-> s1: <color:blue>[Donnéees\n<color:blue> incorrectes]
+a1 - -> a2: [Données correctes]/\nEnvoi d'un formulaire de modification
+a2 - -> s2: Mise à jour validée
+a2- ->a2 : Attente de validation
+s2 - -> s3: Détection de changements 
+s3 - -> a3: Modification de la catégorie
+a3- -> a3: Attente de validation
+a3- -> s4: Mise à jour validée
+s4 - ->[*]
+
+@enduml
+
+@startuml CategoryRename
+
+skinparam component{
+    ArrowColor black
+}
+
+state "Catégorie initiale" as s1
+state "Catégorie modifiée" as s2
+state "Catégories de la liste de\n tâches non-modifiées" as s3
+state "Catégories de la liste de\n tâches modifiées" as s4
+state "Formulaire" as a1
+state "Validation par le Serveur" as a2
+state "Validation par le Serveur" as a3
+
+a1: do/Vérification du nom de la catégorie
+a2: entry/Valide la modification
+a3: entry/Valide la modification
+s3: Nom de la catégorie initiale
+s4: Nom de la nouvelle catégorie
+hide empty description
+
+[*]- ->s1
+s1 -[#red]-> a1: <color:red>Insertion de   \n<color:red>données
+a1 -[#blue]-> s1: <color:blue>[Donnéees\n<color:blue> incorrectes]
+a1 - -> a2: [Données correctes]/\nEnvoi d'un formulaire de modification
+a2 - -> s2: Mise à jour validée
+a2- ->a2 : Attente de validation
+s2 - -> s3: Détection de changements 
+s3 - -> a3: Modification de la catégorie
+a3- -> a3: Attente de validation
+a3- -> s4: Mise à jour validée
+s4 - ->[*]
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: fr
+Country: FR
+--></g></svg>
